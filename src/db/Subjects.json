@@ -1,0 +1,798 @@
+{
+    "name": "IFST-PLAN",
+    "version": "0.1.0",
+    "requires": true,
+    "private": true,
+    "semesters": [
+        {
+            "subject": [
+                {
+                    "title": "История",
+                    "descr": "История России. Преподаватель очень крутой. Расссказыывает много интересных вещей, как по истории, так и из жизни. Если ты сделаешь презентацию со шреком, то получишь уважение преподавателяи и леденец, на вкус напоминающий мел",
+                    "time": "72",
+                    "teacher": [
+                        {
+                            "name": "Захаров Александр Викторович",
+                            "link": "https://www.sstu.ru/teachers/41086-zakharov-aleksandr-viktorovich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 1
+                },
+                {
+                    "title": "Информатика",
+                    "descr": "Здесь вы будете изучать основы по с++ начиная от переменных, заканчивая функцииями, ничего сложного, можно выучить за два дня. Еще останется время на практику.",
+                    "time": "216",
+                    "teacher": [
+                        {
+                            "name": "Ермаков Александр Вадимович",
+                            "link": "https://www.sstu.ru/teachers/1715-ermakov_aleksandr_vadimovich.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 2
+                },
+                {
+                    "title": "Физика",
+                    "descr": "Физика - тут и сказать больше нечего. Надо будет сделать 6-ть лаб, а делать их одному сложно. Думаю, они редко встречаются у других. Реже чем китайцы на платных телеканалах",
+                    "time": "180",
+                    "teacher": [
+                        {
+                            "name": "Исаева Анна Андреевна",
+                            "link": "https://www.sstu.ru/teachers/1784-isaeva_anna_andreevna.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 3
+                },
+                {
+                    "title": "Иностранный язык",
+                    "descr": "Английский. Ну тут все зависит от тебя. Если хочешь учится, то иди в самую сильную группу, если нужен зачет, то просто иди в самую слабую группу, придешь в конце семестра, отчитаешь пару заданий, что сделал два часа назад  и свободен! Эти занятия мне очень напоминают бывшую свекровь, но та выбирала между водкой и джином",
+                    "time": "96",
+                    "teacher": [
+                        {
+                            "name": "Красавина Татьяна Николаевна",
+                            "link": "https://www.sstu.ru/teachers/44723-krasavina-tatyana-nikolaevna.html"
+                        },
+                        {
+                            "name": "Сеитова Алина Радикова",
+                            "link": "https://www.sstu.ru/teachers/33841-seitova-alina-radikovna.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 4
+                },
+                {
+                    "title": "Математика",
+                    "descr": "Мат. Анализ, Алгебра и геометрия. Не сказать что хард, но в первом семесте, если пропустишь хоть одно занятие или не сделаешь хоть одну домашку (хотябы по одному номеру из каждой темы), то тебе будет очень плохо потом. Если остальное еще и можно порой пропускать, то тут ходить обязательно!",
+                    "time": "180",
+                    "teacher": [
+                        {
+                            "name": "Попова Анна Александровна",
+                            "link": "https://www.sstu.ru/teachers/19227-popova-anna-aleksandrovna-prepod-.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 5
+                },
+                {
+                    "title": "Введение в профессию",
+                    "descr": "Это еще одна математика, которую у тебя будет вести Петрова. Сразу скажу, если она говорит, что идти нужно обязательно, то это просто байт на лоха, а вот если 'Посещаемость строго обязательно', то договоритесь кто пойдет. Нужно 60% от группы. Неважно, откуда я это знаю, скажу только, что не обошлось без кубинского рома.",
+                    "time": "72",
+                    "teacher": [
+                        {
+                            "name": "Петрова Татьяна Юрьевна",
+                            "link": "https://www.sstu.ru/teachers/2155-petrova_tatyana_yurevna.html"
+                        }
+                    ],
+                    "id": 6
+                },
+                {
+                    "title": "Физическая культура и спорт",
+                    "descr": "Тебе нужно набрать отределенное количексто галочек. Все зависит от преподавателя. Но есть вариант, котрый всегда прокатит. В начале семестра топай в 1-й корпус и ищи завхоз отдел. 1 час отработки = 2 часам на физкультуре. Потом принеси бумажки с отработкой преподавателю. Но если ты увидишь, как они просят мой чек на алименты, вали сразу",
+                    "time": "72",
+                    "teacher": [
+                        {
+                            "name": "Гордеев Игорь Владимирович",
+                            "link": "https://www.sstu.ru/teachers/33741-gordeev_igor_vladimirovich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 7
+                },
+                {
+                    "title": "Психология и педагогика",
+                    "descr": "Психология. Начальный курс и введение в эту специальность. Довольно интересный предмет. Лучше походи, тебе эти знания точно пригодятся. Даже возможно, что ты не станишь травить собак на родственников бывшей жены",
+                    "time": "40",
+                    "teacher": [
+                        {
+                            "name": "Аринушкина Наталья Сергеевна",
+                            "link": "https://www.sstu.ru/teachers/1452-arinushkina_natalya_sergeevna.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 8
+                }
+            ]
+        },
+        {
+            "subject": [
+                {
+                    "title":"История",
+                    "descr":" ",
+                    "time":"72",
+                    "teacher":[
+                        {
+                            "name":"Захаров Александр Викторович",
+                            "link":"https://www.sstu.ru/teachers/41086-zakharov-aleksandr-viktorovich.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 1
+                },
+                {
+                    "title":"Иностранный язык",
+                    "descr":" ",
+                    "time":"96",
+                    "teacher":[
+                        {
+                            "name":"Красавина Татьяна Николаевна",
+                            "link":"https://www.sstu.ru/teachers/44723-krasavina-tatyana-nikolaevna.html"
+                        },
+                        {
+                            "name":"Сеитова Алина Радикова",
+                            "link":"https://www.sstu.ru/teachers/33841-seitova-alina-radikovna.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 2
+                },
+                {
+                    "title":"Математика",
+                    "descr":" ",
+                    "time":"180",
+                    "teacher":[
+                        {
+                            "name":"Попова Анна Александровна",
+                            "link":"https://www.sstu.ru/teachers/19227-popova-anna-aleksandrovna-prepod-.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 3
+                },
+                {
+                    "title":"Игровые виды спорта(элективная дисциплина)",
+                    "descr":" ",
+                    "time":"82",
+                    "teacher":[
+                        {
+                            "name":"Гордеев Игорь Владимирович",
+                            "link":"https://www.sstu.ru/teachers/33741-gordeev_igor_vladimirovich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 4
+                },
+                {
+                    "title":"Программирование интернет-приложений",
+                    "descr":" ",
+                    "time":"180",
+                    "teacher":[
+                        {
+                            "name":"Кушникова Елена Вадимовна",
+                            "link":"https://www.sstu.ru/teachers/19217-kushnikova_elena_vadimovna.html"
+                        },
+                        {
+                            "name":"Тер-Погосова Ольга Антоновна",
+                            "link":"https://www.sstu.ru/teachers/44751-ter-pogosova-olga-antonovna.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 5
+                },
+                {
+                    "title":"Технологии программирования",
+                    "descr":" ",
+                    "time":"252",
+                    "teacher":[
+                        {
+                            "name":"Файфель Борис Леонидович",
+                            "link":"https://www.sstu.ru/teachers/2412-fayfel_boris_leonidovich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 6
+                },
+                {
+                    "title":"Правовое государство и современность",
+                    "descr":" ",
+                    "time":"72",
+                    "teacher":[
+                        {
+                            "name":"Мосолкин Сергей Валерьевич",
+                            "link":"https://www.sstu.ru/teachers/6235-mosolkin_sergey_valerevich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 7
+                }
+            ]
+        },
+        {
+            "subject":[
+                {
+                    "title":"Иностранный язык",
+                    "descr":" ",
+                    "time":"96",
+                    "teacher":[
+                        {
+                            "name":"Красавина Татьяна Николаевна",
+                            "link":"https://www.sstu.ru/teachers/44723-krasavina-tatyana-nikolaevna.html"
+                        },
+                        {
+                            "name":"Сеитова Алина Радикова",
+                            "link":"https://www.sstu.ru/teachers/33841-seitova-alina-radikovna.html"
+                        }
+                    ],
+                    "reporting": "",
+                    "id": 1
+                },
+                {
+                    "title":"Игровые виды спорта(элективная дисциплина)",
+                    "descr":" ",
+                    "time":"82",
+                    "teacher":[
+                        {
+                            "name":"Гордеев Игорь Владимирович",
+                            "link":"https://www.sstu.ru/teachers/33741-gordeev_igor_vladimirovich.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 2
+                },
+                 {
+                    "title":"Управление данными",
+                    "descr":" ",
+                    "time":"216",
+                    "teacher":[
+                        {
+                            "name":"Иванов Альберт Васильевич",
+                            "link":"https://www.sstu.ru/teachers/1766-ivanov_albert_vasilevich.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 3
+                },
+                {
+                    "title":"Объектно-ориентированное программирование",
+                    "descr":" ",
+                    "time":"144",
+                    "teacher":[
+                        {
+                            "name":"Пудиков Антон Сергеевич",
+                            "link":"https://www.sstu.ru/teachers/33815-pudikov-anton-sergeevich.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 4
+                },
+                {
+                    "title":"Технологии обработки информации",
+                    "descr":" ",
+                    "time":"144",
+                    "teacher":[
+                        {
+                            "name":"Ермаков Александр Вадимович",
+                            "link":"https://www.sstu.ru/teachers/1715-ermakov_aleksandr_vadimovich.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 5
+                },
+                {
+                    "title":"Дискретная математика",
+                    "descr":" ",
+                    "time":"108",
+                    "teacher":[
+                        {
+                            "name":"Акимова Светлана Александровна",
+                            "link":"https://www.sstu.ru/teachers/41794-akimova_svetlana_aleksandrovna.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 6
+                },
+                {
+                    "title":"Начертательная геометрия и инженерная графика",
+                    "descr":" ",
+                    "time":"72",
+                    "teacher":[
+                        {
+                            "name":"Ивженко Сергей Петрович",
+                            "link":"https://www.sstu.ru/teachers/1773-ivzhenko_sergey_petrovich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 7
+                },
+                {
+                    "title":"Основы интеллектуального анализа данных",
+                    "descr":" ",
+                    "time":"108",
+                    "teacher":[
+                        {
+                            "name":"Печенкин Виталий Владимирович",
+                            "link":"https://www.sstu.ru/teachers/2160-pechenkin_vitaliy_vladimirovich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 8
+                }
+            ]
+        },
+        {
+            "subject":[
+                {
+                    "title":"Игровые виды спорта(элективная дисциплина)",
+                    "descr":" ",
+                    "time":"82",
+                    "teacher":[
+                        {
+                            "name":"Гасилина Елена Викторовна",
+                            "link":"https://www.sstu.ru/teachers/1597-gasilina_elena_viktorovna.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 1
+                },
+                {
+                    "title":"Современные технологии управления базами данных",
+                    "descr":" ",
+                    "time":"144",
+                    "teacher":[
+                        {
+                            "name":"Большелапов Михаил Александрович",
+                            "link":"https://www.sstu.ru/teachers/44745-bolshelapov_mikhail_aleksandrovich.html"
+                        },
+                        {
+                            "name":"Кузьмин Алексей Константинович",
+                            "link":"https://www.sstu.ru/teachers/1923-kuzmin_aleksey_konstantinovich.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 2
+                },
+                {
+                    "title":"Компьютерные технологии обработки изображения",
+                    "descr":" ",
+                    "time":"108",
+                    "teacher":[
+                        {
+                            "name":"Дауров Станислав Константинович",
+                            "link":"https://www.sstu.ru/teachers/1659-daurov_stanislav_konstantinovich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 3
+                },
+                {
+                    "title":"Компьютерные технологии создания изображения",
+                    "descr":" ",
+                    "time":"144",
+                    "teacher":[
+                        {
+                            "name":"Кузнецова Ксения Дмитриевна",
+                            "link":"https://www.sstu.ru/teachers/36274-kuznetsova_kseniya_dmitrievna.html"
+                        },
+                        {
+                            "name":"Кумова Елена Вадимовна",
+                            "link":"https://www.sstu.ru/teachers/1932-kumova_svetlana_valentinovna.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 4
+                },
+                {
+                    "title":"Интерактивное программирование веб-приложений",
+                    "descr":" ",
+                    "time":"144",
+                    "teacher":[
+                        {
+                            "name":"Кушникова Елена Вадимовна",
+                            "link":"https://www.sstu.ru/teachers/19217-kushnikova_elena_vadimovna.html"
+                        },
+                        {
+                            "name":"Федина Анастасия Вячеславовна",
+                            "link":"https://www.sstu.ru/teachers/43514-fedina_anastasiya_vyacheslavovna.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 5
+                },
+                {
+                    "title":"Информационные технологии",
+                    "descr":" ",
+                    "time":"144",
+                    "teacher":[
+                        {
+                            "name":"Бровко Александр Валерьевич",
+                            "link":"https://www.sstu.ru/teachers/1544-brovko_aleksandr_valerevich.html"
+                        },
+                                            {
+                            "name":"Нугманов Даулет Сакенович",
+                            "link":"https://www.sstu.ru/teachers/2088-nugmanov_daulet_sakenovich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 6
+                },
+                {
+                    "title":"Исследование операций и методы оптимизации",
+                    "descr":" ",
+                    "time":"72",
+                    "teacher":[
+                        {
+                            "name":"Петрова Татьяна Юрьевна",
+                            "link":"https://www.sstu.ru/teachers/2155-petrova_tatyana_yurevna.html"
+                        },
+                                            {
+                            "name":"Печенкин Виталий Владимирович",
+                            "link":"https://www.sstu.ru/teachers/2160-pechenkin_vitaliy_vladimirovich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 7
+                },
+                {
+                    "title":"Архитектура информационных систем",
+                    "descr":" ",
+                    "time":"180",
+                    "teacher":[
+                        {
+                            "name":"Файфель Борис Леонидович",
+                            "link":"https://www.sstu.ru/teachers/2412-fayfel_boris_leonidovich.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 8
+                }
+            ]
+        },
+        {
+            "subject":[
+                {
+                    "title":"Игровые виды спорта(элективная дисциплина)",
+                    "descr":" ",
+                    "time":"38",
+                    "teacher":[
+                        {
+                            "name":"Гасилина Елена Викторовна",
+                            "link":"https://www.sstu.ru/teachers/1597-gasilina_elena_viktorovna.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 1
+                },
+                {
+                    "title":"Философия",
+                    "descr":" ",
+                    "time":"108",
+                    "teacher":[
+                        {
+                            "name":"Архипова Юлия Валерьевна",
+                            "link":"https://www.sstu.ru/teachers/1466-arkhipova_yuliya_valerevna.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 2
+                },
+                {
+                    "title":"Безопасность жизнедеятельности",
+                    "descr":" ",
+                    "time":"72",
+                    "teacher":[
+                        {
+                            "name":"Татаринцева Елена Александровна",
+                            "link":"https://www.sstu.ru/teachers/28326-tatarintseva-elena-aleksandrovna.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 3
+                },
+                {
+                    "title":"Инструментальные средства информационных систем",
+                    "descr":" ",
+                    "time":"180",
+                    "teacher":[
+                        {
+                            "name":"Большелапов Михаил Александрович",
+                            "link":"https://www.sstu.ru/teachers/44745-bolshelapov_mikhail_aleksandrovich.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 4
+                },
+                {
+                    "title":"Администрирование информационных систем",
+                    "descr":" ",
+                    "time":"108",
+                    "teacher":[
+                        {
+                            "name":"Ивженко Сергей Петрович",
+                            "link":"https://www.sstu.ru/teachers/1773-ivzhenko_sergey_petrovich.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 5
+                },
+                {
+                    "title":"Прикладные аспекты теории графов",
+                    "descr":" ",
+                    "time":"108",
+                    "teacher":[
+                        {
+                            "name":"Печенкин Виталий Владимирович",
+                            "link":"https://www.sstu.ru/teachers/2160-pechenkin_vitaliy_vladimirovich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 6
+                },
+                {
+                    "title":"Мультимедиа технологии",
+                    "descr":" ",
+                    "time":"144",
+                    "teacher":[
+                        {
+                            "name":"",
+                            "link":""
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 7
+                },
+                {
+                    "title":"Компьютерные методы моделирования искусственных нейронных сетей",
+                    "descr":" ",
+                    "time":"180",
+                    "teacher":[
+                        {
+                            "name":"Кузьмин Алексей Константинович",
+                            "link":"https://www.sstu.ru/teachers/1923-kuzmin_aleksey_konstantinovich.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 8
+                }
+            ]
+        },
+        {
+            "subject":[
+                {
+                    "title":"Игровые виды спорта(элективная дисциплина)",
+                    "descr":" ",
+                    "time":"38",
+                    "teacher":[
+                        {
+                            "name":"Гордеев Игорь Владимирович",
+                            "link":"https://www.sstu.ru/teachers/33741-gordeev_igor_vladimirovich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 1
+                },
+                {
+                    "title":"Безопасность информационных технологий и систем",
+                    "descr":" ",
+                    "time":"144",
+                    "teacher":[
+                        {
+                            "name":"Большаков Алексей Александрович",
+                            "link":"https://www.sstu.ru/teachers/1522-bolshakov_aleksey_aleksandrovich.html"
+                        },
+                        {
+                            "name":"Смирнов Евгений Сергеевич",
+                            "link":"https://www.sstu.ru/teachers/44714-smirnov_evgeniy_sergeevich.html"
+                        }
+                    ],
+                    "reporting": "зачет с оценкой",
+                    "id": 2
+                },
+                {
+                    "title":"Программные технологии разработки компьютерных игр",
+                    "descr":" ",
+                    "time":"72",
+                    "teacher":[
+                        {
+                            "name":"Гаспарян Эдик Арамович",
+                            "link":"https://www.sstu.ru/teachers/33763-gasparyan_edik_aramovich.html"
+                        },
+                        {
+                            "name":"Королёв Михаил Сергеевич",
+                            "link":"https://www.sstu.ru/teachers/25594-korolyev-mikhail-sergeevich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 3
+                },
+                {
+                    "title":"Разработка мобильных приложений",
+                    "descr":" ",
+                    "time":"144",
+                    "teacher":[
+                        {
+                            "name":"Кулакова Екатерина Михайловна",
+                            "link":"https://www.sstu.ru/teachers/22706-kulakova-ekaterina-mikhaylovna.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 4
+                },
+                {
+                    "title":"Программные средства компьютерной анимации",
+                    "descr":" ",
+                    "time":"180",
+                    "teacher":[
+                        {
+                            "name":"Кумова Светлана Валентиновна",
+                            "link":"https://www.sstu.ru/teachers/1932-kumova_svetlana_valentinovna.html"
+                        }
+                    ],
+                    "reporting": "",
+                    "id": 5
+                },
+                {
+                    "title":"Компьютерные технологии трехмерной графики",
+                    "descr":" ",
+                    "time":"108",
+                    "teacher":[
+                        {
+                            "name":"Данилова Светлана Анатольевна",
+                            "link":"https://www.sstu.ru/teachers/44129-danilova-svetlana-anatolevna.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 6
+                },
+                {
+                    "title":"Интеллектуальные информационные системы и технологии",
+                    "descr":" ",
+                    "time":"216",
+                    "teacher":[
+                        {
+                            "name":"Печенкин Виталий Владимирович",
+                            "link":"https://www.sstu.ru/teachers/2160-pechenkin_vitaliy_vladimirovich.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 7
+                }
+            ]
+        },
+        {
+            "subject":[
+                {
+                   "title":"Анализ больших данных",
+                   "descr":" ",
+                   "time":"216",
+                   "teacher":[
+                        {
+                            "name":"Ермаков Александр Вадимович",
+                            "link":"https://www.sstu.ru/teachers/1715-ermakov_aleksandr_vadimovich.html"
+                        }
+                   ],
+                   "reporting": "экзамен",
+                   "id": 1
+                },
+                {
+                   "title":"Методы и средства проектирования информационных систем и технологий",
+                   "descr":" ",
+                   "time":"180",
+                   "teacher":[
+                        {
+                            "name":"Кондратов Дмитрий Вячеславович",
+                            "link":"https://www.sstu.ru/teachers/1857-kondratov_dmitriy_vyacheslavovich.html"
+                        }
+                   ],
+                   "reporting": "экзамен",
+                   "id": 2
+                },
+                {
+                   "title":"Корпоративные информационные системы",
+                   "descr":" ",
+                   "time":"72",
+                   "teacher":[
+                        {
+                            "name":"Большаков Алексей Александрович",
+                            "link":"https://www.sstu.ru/teachers/1522-bolshakov_aleksey_aleksandrovich.html"
+                        }
+                   ],
+                   "reporting": "зачет",
+                   "id": 3
+                },
+                {
+                   "title":"Инфокоммуникационные системы и сети",
+                   "descr":" ",
+                   "time":"180",
+                   "teacher":[
+                        {
+                            "name":"Федукин Александр Юрьевич",
+                            "link":"https://www.sstu.ru/teachers/33751-fedukin-aleksandr-yurevich.html"
+                        }
+                   ],
+                   "reporting": "экзамен",
+                   "id": 4
+                },
+                {
+                   "title":"Теория информационных процессов и систем",
+                   "descr":" ",
+                   "time":"108",
+                   "teacher":[
+                        {
+                            "name":"Файфель Борис Леонидович",
+                            "link":"https://www.sstu.ru/teachers/2412-fayfel_boris_leonidovich.html"
+                        }
+                   ],
+                   "reporting": "зачет",
+                   "id": 5
+               }
+            ]
+        },
+        {
+            "subject":[
+                {
+                    "title":"Разработка кросплатформенных мобильных приложений ",
+                    "descr":" ",
+                    "time":"180",
+                    "teacher":[
+                        {
+                            "name":"Гаспарян Эдик Арамович",
+                            "link":"https://www.sstu.ru/teachers/33763-gasparyan_edik_aramovich.html"
+                        }
+                    ],
+                    "reporting": "экзамен",
+                    "id": 1
+                },
+                {
+                    "title":"Компьютерные технологии создания изображения ",
+                    "descr":" ",
+                    "time":"144",
+                    "teacher":[
+                        {
+                            "name":"Королёв Михаил Сергеевич",
+                            "link":"https://www.sstu.ru/teachers/25594-korolyev-mikhail-sergeevich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 2
+                },
+                {
+                    "title":"Информационные технологии виртуальной реальности",
+                    "descr":" ",
+                    "time":"108",
+                    "teacher":[
+                        {
+                            "name":"Кузнецова Ксения Дмитриевна",
+                            "link":"https://www.sstu.ru/teachers/36274-kuznetsova_kseniya_dmitrievna.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 3
+                },
+                {
+                    "title":"Методы оптимизации",
+                    "descr":" ",
+                    "time":"144",
+                    "teacher":[
+                        {
+                            "name":"Львов Алексей Арленович",
+                            "link":"https://www.sstu.ru/teachers/1980-lvov_aleksey_arlenovich.html"
+                        }
+                    ],
+                    "reporting": "зачет",
+                    "id": 4
+                }
+            ]
+        }
+    ]
+}

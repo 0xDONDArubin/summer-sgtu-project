@@ -1,0 +1,71 @@
+.profile-info {
+    display: flex;
+    margin-top: 70px;
+    color: #343a40;
+    justify-content: space-between;
+}
+
+.profile-descr {
+    width: 900px;
+    background-color: #f8f9fa;
+    padding-left: 20px;
+}
+
+.profile-img-wrapper {
+    width: 350px;
+    height: 500px;
+    background-color: #f8f9fa;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prifile-fullname {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.profile-group,
+.profile-semestr,
+.profile-subscribe {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.profile-report {
+    width: 100%;
+    background-color: #f8f9fa;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.profile-report-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-subject,
+.profile-subject-descr {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-subject-name {
+    font-size: 22px;
+}
+
+.rofile-subject-report {
+    font-size: 22px;
+    margin-right: 200px;
+}
+
+.profile-subject:hover {
+    background-color: #868e96;
+    color: #f8f9fa;
+}

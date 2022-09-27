@@ -1,0 +1,104 @@
+[
+    {
+        "id": 101101,
+        "name": "John",
+        "patronymic": "Alex",
+        "surname": "Smith",
+        "email": "john@gmail.com",
+        "address": {
+            "street": "Kulas Light",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874"
+        },
+        "phone": "1-770-736-8031",
+        "group": "Б2-ИФСТ-22",
+        "access": "student",
+        "semestr": "4",
+        "subscribe": false
+    },
+    {
+        "id": 101102,
+        "name": "John",
+        "patronymic": "Alex",
+        "surname": "Smith",
+        "email": "john@gmail.com",
+        "address": {
+            "street": "Kulas Light",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874"
+        },
+        "phone": "1-770-736-8031",
+        "group": "Б2-ИФСТ-22",
+        "access": "student",
+        "semestr": "4",
+        "subscribe": false
+    },
+    {
+        "id": 101103,
+        "name": "John",
+        "patronymic": "Alex",
+        "surname": "Smith",
+        "email": "john@gmail.com",
+        "address": {
+            "street": "Kulas Light",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874"
+        },
+        "phone": "1-770-736-8031",
+        "group": "Б2-ИФСТ-22",
+        "access": "student",
+        "semestr": "4",
+        "subscribe": false
+    },
+    {
+        "id": 101104,
+        "name": "John",
+        "patronymic": "Alex",
+        "surname": "Smith",
+        "email": "john@gmail.com",
+        "address": {
+            "street": "Kulas Light",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874"
+        },
+        "phone": "1-770-736-8031",
+        "group": "Б2-ИФСТ-22",
+        "access": "student",
+        "semestr": "4",
+        "subscribe": false
+    },
+    {
+        "id": 101105,
+        "name": "John",
+        "patronymic": "Alex",
+        "surname": "Smith",
+        "email": "john@gmail.com",
+        "address": {
+            "street": "Kulas Light",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874"
+        },
+        "phone": "1-770-736-8031",
+        "group": "Б2-ИФСТ-22",
+        "access": "student",
+        "semestr": "4",
+        "subscribe": false
+    },
+    {
+        "id": 101001,
+        "name": "Alex",
+        "patronymic": "John",
+        "surname": "Smith",
+        "email": "john@gmail.com",
+        "address": {
+            "street": "Kulas Light",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874"
+        },
+        "phone": "1-770-736-8031",
+        "groups": "Б2-ИФСТ-22 Б1-ИФСТ-22 Б1-ИФСТ-21",
+        "access": "teacher",
+        "semestr": "",
+        "subscribe": false
+    }
+]
